@@ -1,2 +1,2 @@
 # betsapi_async
-Python BatsAPI async
+Python BetsAPI async
