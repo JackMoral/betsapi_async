@@ -29,5 +29,5 @@ if __name__ == '__main__':
     asyncio.get_event_loop().run_until_complete(main())
 ```
 
-If you need to develop a sports web application based on this package, write to Telegram, price from $ 300
+If you need to develop a sports web application based on this package, write to Telegram, price from $ 500
 > @JackMoral
