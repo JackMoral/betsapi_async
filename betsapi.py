@@ -195,7 +195,31 @@ class BetsAPI:
         '436': 'West Regional - Second Round',
         '438': 'West Regional - Sweet 16'
     }
-
+    
+    odds_markets = {
+        '1_1': '1X2, Full Time Result',
+        '1_2': 'Asian Handicap',
+        '1_3': 'O/U, Goal Line',
+        '1_4': 'Asian Corners',
+        '1_5': '1st Half Asian Handicap',
+        '1_6': '1st Half Goal Line',
+        '1_7': '1st Half Asian Corners',
+        '1_8': 'Half Time Result',
+        '18_1': 'Money Line',
+        '18_2': 'Spread',
+        '18_3': 'Total Points',
+        '18_4': 'Money Line (Half)',
+        '18_5': 'Spread (Half)',
+        '18_6': 'Total Points (Half)',
+        '18_7': 'Quarter - Winner (2-Way)',
+        '18_8': 'Quarter - Handicap',
+        '18_9': 'Quarter - Total (2-Way)',
+        '*_1': 'Match Winner 2-Way',
+        '*_2': 'Asian Handicap',
+        '*_3': 'Over/Under',
+        '3_4': 'Draw No Bet (Cricket)'
+    }
+    
     language_ids = {
         '1': 'English (by default)',
         '2': 'zh_TW (繁體中文)',
